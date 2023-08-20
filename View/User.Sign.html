@@ -1,0 +1,32 @@
+<main class="style-main">
+    <section>
+        <div class="style-container-form">
+
+
+            <form action="sign" method="post" target="_self" class="style-form">
+
+                <label class="style-label">
+                    <input type="text" class="style-input" placeholder=" " required name="name" >
+                    <span class="style-span">Nome</span>
+                </label>
+
+                <label class="style-label">
+                    <input type="password" class="style-input" placeholder=" " minlength="6" required name="password" >
+                    <span class="style-span">Senha</span>
+                </label>
+
+                <label class="style-label">
+                    <input type="password" class="style-input" placeholder=" " minlength="6" required name="confirmpassword" >
+                    <span class="style-span">Confirmar Senha</span>
+                </label>
+
+
+                <button type="submit" class="style-submit">Enviar</button>
+
+            </form>
+
+
+        </div>
+        <: error :>
+    </section>
+</main>
